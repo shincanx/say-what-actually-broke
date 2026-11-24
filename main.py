@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
-"""Entry 2: Say What Actually Broke.
+"""Say What Actually Broke - entry 3.
 
-Writes a single line of honest software error copy to /output/entry.txt.
-Deterministic, standard library only, no network.
+Writes a single line of honest, funny error copy to /output/entry.txt.
+Deterministic: same input, same output, every run.
+Standard library only, no network.
 """
 
 import os
 
 ENTRY = (
-    "Our certificate expired at 3 a.m. We only found out because you "
-    "tried to log in. Your data is safe; our dignity is not."
+    "Your file didn't save - the disk is full. We kept every log since 2019 "
+    "and deleted nothing, so your work is the first thing we've ever thrown away."
 )
 
 
